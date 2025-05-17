@@ -4,6 +4,8 @@ import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";
 import Services from "./sections/Services";
 import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Portfolio />
       <Services />
       <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 };
