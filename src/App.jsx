@@ -2,6 +2,8 @@ import React from "react";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";
+import Services from "./sections/Services";
+import Testimonials from "./sections/Testimonials";
 
 const App = () => {
   return (
@@ -9,6 +11,8 @@ const App = () => {
       <Hero />
       <About />
       <Portfolio />
+      <Services />
+      <Testimonials />
     </div>
   );
 };
