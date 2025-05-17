@@ -6,10 +6,13 @@ import Services from "./sections/Services";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 
 const App = () => {
   return (
     <div className="min-h-screen font-sans">
+      <Navbar />
       <Hero />
       <About />
       <Portfolio />
