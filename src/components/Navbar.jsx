@@ -12,18 +12,18 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-cream/90 backdrop-blur-md shadow z-50">
+    <header className="fixed top-0 left-0 w-full bg-bluegray shadow-md z-50">
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-slate-800">BrightNest</h1>
+        <h1 className="text-xl font-bold text-linen">BrightNest</h1>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-slate-800"
+          className="md:hidden text-linen text-2xl"
         >
           {isOpen ? "✖" : "☰"}
         </button>
 
-        <ul className="hidden md:flex space-x-6 font-medium text-slate-700">
+        <ul className="hidden md:flex space-x-6 font-medium text-linen">
           {links.map((link, idx) => (
             <li key={idx}>
               <Link
@@ -31,7 +31,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={600}
                 offset={-80}
-                className="cursor-pointer hover:text-[#5C7285] transition"
+                className="cursor-pointer hover:text-softsage transition"
               >
                 {link.label}
               </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <ul className="md:hidden px-6 pb-4 space-y-3 text-slate-700 font-medium">
+        <ul className="md:hidden px-6 pb-4 space-y-3 text-linen font-medium bg-bluegray border-t border-softsage">
           {links.map((link, idx) => (
             <li key={idx}>
               <Link
@@ -50,7 +50,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={600}
                 offset={-80}
-                className="block cursor-pointer hover:text-[#5C7285]"
+                className="block cursor-pointer hover:text-softsage"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}

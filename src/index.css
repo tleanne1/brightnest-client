@@ -2,25 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smooth scroll */
-html {
+html,
+body {
+  @apply bg-linen text-bluegray;
   scroll-behavior: smooth;
-}
-
-@layer base {
-  html, body {
-    @apply bg-cream text-[#5C7285] font-sans;
-  }
-
-  h1, h2, h3, h4 {
-    @apply font-semibold text-[#5C7285];
-  }
-
-  a {
-    @apply transition-colors duration-300;
-  }
-
-  button {
-    @apply font-medium transition duration-300;
-  }
 }
