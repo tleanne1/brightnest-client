@@ -54,7 +54,8 @@ src/
 
 ## 📸 Mock Client Feedback
 
-<img width="1710" alt="brightnest-client" src="https://github.com/user-attachments/assets/a3f36add-c1f5-4901-845d-d13b244b1c3a" />
+<img width="1710" alt="brightnest-client" src="https://github.com/user-attachments/assets/243e79b6-874f-4c72-a066-0464d63f60b9" />
+
 
 > “BrightNest brought our vision to life — simple, sophisticated, and highly functional. Couldn’t be happier with the result!”  
 > — *Luna R., Interior Designer (Mock Client)*
